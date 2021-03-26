@@ -1,0 +1,40 @@
+section.panier {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.stepper {
+    width: 20rem;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+}
+
+.step-1.step-active,
+.step-2.step-active,
+.step-3.step-active,
+.step-4.step-active {
+    background-color: #f3ae4d;
+    color: #fff;
+}
+
+.step-1,
+.step-2,
+.step-3,
+.step-4 {
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    border: 2px solid #f3ae4d;
+    background-color: #fff;
+    color: #f3ae4d;
+}
+
+.stepper span {
+    padding-left: 40px;
+    background-color: gray;
+}

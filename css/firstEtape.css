@@ -1,0 +1,156 @@
+.recap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 150px;
+    height: 76vh;
+}
+
+.product-choice {
+    width: 70%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-pdt {
+    height: 150px;
+    width: 150px;
+}
+
+.description {
+    padding: 0 50px;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.security {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 150px;
+}
+
+.security i {
+    font-size: 89px;
+    color: rgb(214, 211, 211);
+}
+
+.security p {
+    font-family: 'Poppins';
+    font-weight: bold;
+    padding: 0 50px;
+    font-size: 21px;
+}
+
+.other {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 239px;
+}
+
+.other i {
+    font-size: 89px;
+    color: rgb(214, 211, 211);
+}
+
+.other p {
+    font-family: 'Poppins';
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.merci {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.merci h2 {
+    font-family: 'Poppins';
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 394px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 21px;
+    color: #f3ae4d;
+}
+
+.price p:last-child {
+    margin-left: 15px;
+}
+
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 467px;
+    font-family: 'Poppins';
+}
+
+.next a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #f3ae4d;
+    padding: 10px 45px;
+}
+
+.next a:hover {
+    border: 2px solid #f3ae4d;
+    background-color: #fff;
+    color: #f3ae4d;
+    transition: all 250ms ease;
+}
+
+.prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 534px;
+    font-family: 'Poppins';
+}
+
+.prev a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    width: 330px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #f3ae4d;
+    padding: 10px 45px;
+}
+
+.prev a:hover {
+    border: 2px solid #f3ae4d;
+    background-color: #fff;
+    color: #f3ae4d;
+    transition: all 250ms ease;
+}
+

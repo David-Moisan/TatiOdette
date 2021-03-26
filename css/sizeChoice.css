@@ -1,0 +1,45 @@
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 253px;
+}
+
+section.price {
+    margin-top: 25px;
+}
+
+section.price p {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #f3ae4d;
+    margin-top: 150px;
+}
+
+.case1 h2 > a,
+.case2 h2 > a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    color: #f3ae4d;
+    padding: 5rem;
+    border-radius: 1.5rem;
+    border: 3px solid #f3ae4d;
+}
+
+.case1:hover h2 > a:hover,
+.case2:hover h2 > a:hover {
+    color: #fff;
+    background-color: #f3ae4d;
+    box-shadow: 0 15px 25px -4px rgba(0,0,0,0.5), inset 0 -3px 4px -1px rgba(0,0,0,0.2),
+    inset 0 3px 4px -1px rgba(255, 255, 255, 0.2), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
+    transition: all 0.3s e;
+}
+
+
+
+

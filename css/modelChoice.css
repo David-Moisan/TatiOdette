@@ -1,0 +1,67 @@
+
+section.column-grid {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 200px 200px;
+}
+
+.case1, .case2, .case3, .case4, .case5, .case6, .case7, .case8 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 15px 25px -4px rgba(0,0,0,0.5);
+}
+
+.case1 a, .case2 a, .case3 a, .case4 a, .case5 a, .case6 a, .case7 a, .case8 a{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 99;
+}
+
+.case1 a:hover, .case2 a:hover, .case3 a:hover, .case4 a:hover, .case5 a:hover, .case6 a:hover, .case7 a:hover, .case8 a:hover {
+    mix-blend-mode: overlay;
+    background-color: #f3ae4d;
+    transform: scale(1.1);
+    transition: all 250ms ease-in-out;
+}
+
+.case1 {
+    background-image: url("/source/spider.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.case2 {
+    background-image: url("/source/cat.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.case3 {
+    background-image: url("/source/android-kitkat-chocnology-impression-3D-printed-printed-chocolat-moad-johannesbourg-artist-cults-cults3D-3-e1384335467820.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.case4 {
+    background-image: url("/source/heart.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.case5 {
+background-image: url("/source/lips.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.case6 {
+background-image: url("/source/lowpoly.png");
+    background-position: center;
+    background-size: cover;
+}
+
+

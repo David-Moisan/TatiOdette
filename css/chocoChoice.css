@@ -1,0 +1,44 @@
+section {
+    margin-top: 253px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.case1, .case2, .case3 {
+    width: 200px;
+    height: 200px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.case1 a, .case2 a, .case3 a {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 99;
+}
+
+.case1 {
+    background-color: #FEFECE;
+    box-shadow: 0 15px 25px -4px rgba(0,0,0,0.5);
+}
+
+.case2 {
+    background-color: #875403;
+    box-shadow: 0 15px 25px -4px rgba(0,0,0,0.5);
+}
+
+.case3 {
+    background-color: #3C2702;
+    box-shadow: 0 15px 25px -4px rgba(0,0,0,0.5);
+}
+
+section p {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #875403;
+    margin-left: 120px;
+    margin-top: -153px;
+}
