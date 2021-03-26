@@ -1,10 +1,4 @@
-// utiliser le input.checkbox pour qu'au clic le bouton change la couleur du background-color de la page, et du text
 
-let changeBtn = document.getElementById("toggle");
-
-changeBtn.addEventListener('change', (e) => {
-    document.body.classList.toggle('dark', e.target.checked);
-});
 
 // Changer l'icon du drapeau et de la langue
 
