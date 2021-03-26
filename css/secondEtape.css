@@ -7,9 +7,21 @@ section.choice {
     height: 76vh;
 }
 
-.cart {
+h2 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #f3ae4d;
     position: absolute;
     top: 0;
+}
+
+h2.title {
+    top: 140px;
+}
+
+.cart {
+    position: absolute;
+    top: 76px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -32,21 +44,12 @@ section.choice {
     transition: all 250ms ease-in-out;
 }
 
-.paypal {
-    top: 124px;
-}
-
-.paypal a {
-    padding: 10px 165px;
-}
-
-
 .money {
-    top: 250px;
+    top: 218px;
 }
 
 .money a {
-    padding: 10px 165px;
+    padding: 10px 170px;
 }
 
 .prev {
@@ -62,7 +65,7 @@ section.choice {
 .prev a {
     text-decoration: none;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 34px;
     width: 330px;
     text-align: center;
     color: #fff;
