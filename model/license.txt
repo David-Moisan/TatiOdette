@@ -1,0 +1,11 @@
+Model Information:
+* title:	Chocolat Bar
+* source:	https://sketchfab.com/3d-models/chocolat-bar-69d0a671024e4928a12f5ee0d655f0a6
+* author:	davimfs7 (https://sketchfab.com/davimfs7)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Chocolat Bar" (https://sketchfab.com/3d-models/chocolat-bar-69d0a671024e4928a12f5ee0d655f0a6) by davimfs7 (https://sketchfab.com/davimfs7) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
