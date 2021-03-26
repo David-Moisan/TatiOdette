@@ -87,10 +87,10 @@
     justify-content: center;
     width: 100%;
     position: absolute;
-    top: 394px;
+    top: 375px;
     font-family: 'Poppins';
     font-weight: bold;
-    font-size: 21px;
+    font-size: 34px;
     color: #f3ae4d;
 }
 
@@ -104,14 +104,14 @@
     justify-content: center;
     width: 100%;
     position: absolute;
-    top: 467px;
+    top: 480px;
     font-family: 'Poppins';
 }
 
 .next a {
     text-decoration: none;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 34px;
     color: #fff;
     border-radius: 10px;
     background-color: #f3ae4d;
@@ -131,14 +131,14 @@
     justify-content: center;
     width: 100%;
     position: absolute;
-    top: 534px;
+    top: 600px;
     font-family: 'Poppins';
 }
 
 .prev a {
     text-decoration: none;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 34px;
     width: 330px;
     text-align: center;
     color: #fff;
