@@ -1,0 +1,31 @@
+.word-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.word-input input {
+    margin-top: 25%;
+    border: 3px solid #f3ae4d;
+    border-radius: 15px;
+    font-size: 34px;
+}
+
+.validation {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 21px;
+    color: #f3ae4d;
+    left: 45%;
+    padding: 10px 50px;
+    position: absolute;
+    margin-top: 150px;
+    border: 3px solid #f3ae4d;
+    border-radius: 15px;
+}
+
+.validation:hover {
+    background-color: #f3ae4d;
+    color: white;
+}

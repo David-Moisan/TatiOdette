@@ -7,7 +7,7 @@
     <title>Tati Odette</title>
     <!-- css -->
     <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/videoChoice.css">
+    <link rel="stylesheet" href="/css/word.css">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -15,21 +15,19 @@
     <div class="container">
         <header>
             <div class="back">
-                <a href="#"><i class="fa fa-arrow-left"></i></a>
+                <a href="/modelChoice.html"><i class="fa fa-arrow-left"></i></a>
             </div>
-            <h1>Le film de ma création</h1>
+            <h1>Choix du petit mot</h1>
+            <div class="refresh">
+                <a href="/wordChoice.html"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+            </div>
         </header>
     </div>
-    <section class="video-container">
-        <video controls autoplay loop>
-            <source src="/production ID_4198845.mp4">
-        </video>
+    <section class="word-input">
+        <input type="text" name="word" id="word" maxlength="15">
     </section>
-    <div class="title">
-        <h2>Temps restant :</h2>
-        <div id="countdown" class="ct">
-        </div>
-    </div>
-    <script src="/js/chrono.js"></script>
+    <footer>
+        <a href="/firstEtapeFinal.html" class="validation">Valider</a>
+    </footer>
 </body>
 </html>

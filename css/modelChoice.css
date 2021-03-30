@@ -64,3 +64,27 @@ background-image: url("/source/lowpoly.png");
     background-size: cover;
 }
 
+.words {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 7%;
+    left: 37%;
+}
+
+.words a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 34px;
+    color: #f3ae4d;
+    border: 5px solid #f3ae4d;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+.words a:hover {
+    background-color: #f3ae4d;
+    color: #fff;
+}

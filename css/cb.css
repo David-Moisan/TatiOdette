@@ -1,0 +1,63 @@
+.cb-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.title h2 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.validation {
+    font-weight: bold;
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.validation-cb {
+    font-weight: bold;
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.btn-valid a {
+    text-decoration: none;
+    font-size: 34px;
+    color: #f3ae4d;
+    border-radius: 15px;
+    border: 3px solid #f3ae4d;
+    padding: 5px 15px;
+}
+
+.btn-retour a {
+    text-decoration: none;
+    font-size: 34px;
+    color: #f3ae4d;
+    border-radius: 15px;
+    border: 3px solid #f3ae4d;
+    padding: 5px 90px;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img {
+    width: 50%;
+}

@@ -141,16 +141,17 @@
     font-size: 34px;
     width: 330px;
     text-align: center;
-    color: #fff;
+    color: #f3ae4d;
+    border: 3px solid #f3ae4d;
     border-radius: 10px;
-    background-color: #f3ae4d;
+    background-color: #fff;
     padding: 10px 45px;
 }
 
 .prev a:hover {
     border: 2px solid #f3ae4d;
-    background-color: #fff;
-    color: #f3ae4d;
+    background-color: #f3ae4d;
+    color: #fff;
     transition: all 250ms ease;
 }
 

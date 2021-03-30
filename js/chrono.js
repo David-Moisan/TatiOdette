@@ -1,4 +1,4 @@
-let starting = 10
+let starting = 0.1
 let time = starting * 60
 
 const eL = document.getElementById("countdown")
@@ -11,7 +11,7 @@ console.log(eL);
 setInterval(update, 1000)
 
 function update() {
-    let text = 'Votre chocolat est prêt !'
+    let text = 'Votre chocolat est prêt <a href="/merci.html">►</a>'
 
     const min = Math.floor(time / 60)
     let sec = time % 60

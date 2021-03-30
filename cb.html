@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tati Odette</title>
-    <!-- css -->
     <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/lastEtape.css">
     <link rel="stylesheet" href="/css/etape.css">
+    <link rel="stylesheet" href="/css/cb.css">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -18,7 +17,10 @@
             <div class="back">
                 <a href="/secondEtapeFinal.html"><i class="fa fa-arrow-left"></i></a>
             </div>
-            <h1>1. Panier</h1>
+            <h1>3. Finalisation du panier - Carte bancaire</h1>
+            <div class="refresh">
+                <a href="/cb.html"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+            </div>
         </header>
         <section class="panier">
             <div class="stepper">
@@ -29,15 +31,23 @@
                 <div class="step-3 step-active">3</div>
             </div>
         </section>
-        <div class="chronos">
-            <img src="/source/chrono.png" alt="attente">
+    </div>
+    <section class="cb-body">
+        <header class="title">
+            <h2>Merci de bien vouloir taper votre code de carte bancaire</h2>
+        </header>
+        <div class="img-container">
+            <img src="/maquette/cb.jpg" alt="photo de carte bancaire">
+            <h3>N'oubliez pas votre ticket de caisse</h3>
         </div>
-        <div class="title">
-            <h2>Temps restant :</h2>
-            <div id="countdown" class="ct">
+        <div class="validation-cb">
+            <div class="btn-valid">
+                <a href="/attVideo.html">Valider et payer</a>
+            </div>
+            <div class="btn-retour" style="margin-top: 50px;">
+                <a href="/secondEtapeFinal.html">Retour</a>
             </div>
         </div>
-    </div>
-    <script src="/js/chrono.js"></script>
+    </section>
 </body>
 </html>
