@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatie Odette</title>
+    <link rel="stylesheet" href="/css/header.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 70vh;
+        }
+
+        .form {
+            font-size: 34px;
+            font-family: 'Poppins';
+            color: #f3ae4d;
+        }
+
+        .name-container, .mail-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 50px;
+        }
+
+        input {
+            width: 350px;
+            border: 3px #f3ae4d solid;
+            border-radius: 15px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="back">
+                <a href="/attVideo.html"><i class="fa fa-arrow-left"></i></a>
+            </div>
+            <h1>Formulaire</h1>
+            <div class="refresh">
+                <a href="/form.html"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+            </div>
+        </header>
+        <section>
+            <div class="form">
+                <div class="name-container">
+                    <label for="name">Nom et prénom</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="mail-container">
+                    <label for="email">Adresse mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
