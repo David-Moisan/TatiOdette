@@ -30,3 +30,14 @@ header .back {
 header .back a > i {
     color: #f3ae4d;
 }
+
+header .refresh {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    font-size: 2em;
+}
+
+header .refresh a > i {
+    color: #f3ae4d;
+}

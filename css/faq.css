@@ -1,0 +1,45 @@
+section.section-faq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.logo-container > img {
+    width: 50%;
+    margin-top: -20%;
+    margin-left: 22%;
+}
+
+/**MAIN OF PAGE */
+
+main {
+    width: 100%;
+    height: 50vh;
+    padding: 0 90px;
+}
+
+.text-container {
+    height: inherit;
+    margin-top: -100px;
+}
+
+.text-card {
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+}
+
+.text-card .title {
+    color: #f3ae4d;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.text-card .text {
+    font-size: 21px;
+}
