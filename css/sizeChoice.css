@@ -26,8 +26,7 @@ section.price p {
     text-align: center;
     cursor: pointer;
     color: #f3ae4d;
-    padding: 5rem;
-    border-radius: 1.5rem;
+    padding: 8rem;
     border: 3px solid #f3ae4d;
 }
 
