@@ -6,7 +6,6 @@ section {
 
 .video-container video {
     margin-top: 50px;
-    border-radius: 30px;
     box-shadow: 5px 15px 20px 0px rgba(0,0,0,.5);
     width: 966px;
     height: 100%;

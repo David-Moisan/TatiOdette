@@ -7,18 +7,6 @@ section.choice {
     height: 76vh;
 }
 
-h2 {
-    font-family: 'Poppins';
-    font-weight: bold;
-    color: #f3ae4d;
-    position: absolute;
-    top: 0;
-}
-
-h2.title {
-    top: 140px;
-}
-
 .cart {
     position: absolute;
     top: 76px;
@@ -29,10 +17,13 @@ h2.title {
 }
 
 .cart a {
+    font-family: 'Poppins';
+    font-weight: bold;
     font-size: 34px;
     border: 3px solid #f3ae4d;
+    border-radius: 10px;
     background-color: #f3ae4d;
-    padding: 10px 140px;
+    padding: 10px 120px;
     text-decoration: none;
     color: #fff;
 }
@@ -49,7 +40,7 @@ h2.title {
 }
 
 .money a {
-    padding: 10px 170px;
+    padding: 10px 175px;
 }
 
 .prev {
